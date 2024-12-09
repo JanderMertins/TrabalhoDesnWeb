@@ -1,0 +1,111 @@
+/* Resetando margens e padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style-type: none;
+}
+
+/* Itens do menu */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Links do menu */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo para as seções do site */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Estilo para os títulos */
+h1 {
+    color: #333;
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Estilo para inputs e textarea */
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo do botão de envio */
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+#foto-perfil {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+#logo-dassi {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+#logo {
+    width: 200px; 
+    height: auto;
+}
+#logo-minds {
+    text-align: center; /* Centraliza a imagem */
+    margin: 20px 0; /* Adiciona espaçamento ao redor da imagem */
+}
+
+#logo {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
